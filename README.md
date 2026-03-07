@@ -20,4 +20,4 @@
 ![VM Overview](azure-virtual-machine-overview.png)
 
 ### Network Security Rule (Port 80)
-![NSG Rule](nginx port 80.png)
+![NSG Rule](nginx-port-80.png)
