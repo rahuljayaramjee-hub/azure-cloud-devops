@@ -13,4 +13,10 @@
 - sudo apt install nginx -y
 - sudo systemctl status nginx
 - curl localhost
+## Screenshots
 
+### Azure Virtual Machine Overview
+![Azure VM](azure-virtual-machine-overview.png)
+
+### Network Security Rule (Port 80)
+![NSG Rule](nginx-port-80.png)
