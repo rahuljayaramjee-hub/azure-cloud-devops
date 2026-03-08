@@ -74,4 +74,4 @@ sudo systemctl start nginx
 
 ![NGINX Running](checking-nginx.png.png)
 
- we the ip address we can browse and it willl show nginx is installed
+ with the help of ip address we can browse and it willl show nginx is installed
