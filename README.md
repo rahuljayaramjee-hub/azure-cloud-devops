@@ -106,6 +106,13 @@ Host Port → Container Port
 Access in browser:
 
 http://localhost:8000
+### Docker Container Stop
+
+![Docker Stop](day3-screenshots/docker-stop.png)
+
+### Docker Volume Example
+
+![Docker Volume](day3-screenshots/docker-volume.png)
 
 ---
 
@@ -127,3 +134,10 @@ Concept learned:
 - Remote repository
 - Git commit history
 - Uploading project to GitHub
+### Git Push to GitHub
+
+![Git Push](day3-screenshots/git-push.png)
+
+### Git Repository Setup
+
+![Git Repo](day3-screenshots/git-repo.png)
