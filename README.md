@@ -75,3 +75,55 @@ sudo systemctl start nginx
 ![NGINX Running](checking-nginx.png.png)
 
  with the help of ip address we can browse and it willl show nginx is installed
+
+
+ ### Day 3
+## Docker Basics
+---
+
+### Commands learned:
+
+- docker run -d -p 8000:80 nginx
+- docker ps
+- docker ps -a
+- docker stop <container-id>
+- docker start <container-id>
+- docker rm <container-id>
+- docker container prune
+- learn docker volume and networking
+---
+### Concept learned and did hands on practise :
+- Docker container
+- Port mapping
+- Running Nginx in container
+
+Example:
+
+Host Port → Container Port
+
+8000:80
+
+Access in browser:
+
+http://localhost:8000
+
+---
+
+# same day i learn git and github baics
+---
+## Commands learned:
+
+git init
+git status
+git add
+git commit
+git log
+git remote add origin
+git branch -M main
+git push
+
+Concept learned:
+- Local repository
+- Remote repository
+- Git commit history
+- Uploading project to GitHub
