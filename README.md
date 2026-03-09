@@ -6,7 +6,7 @@
 - install nginx
 - open port 80 in nsg
 - access the website using PUBLIC IP
-
+---
 ### commnad i run 
 - ssh azureuser@PUBLIC_IP
 - sudo apt update
@@ -14,14 +14,14 @@
 - sudo systemctl status nginx
 - curl localhost
 ## Screenshots
-
+---
 ### Azure Virtual Machine Overview
 ![Azure VM](azure-virtual-machine-overview.png)
 
 ### Network Security Rule (Port 80)
 ![NSG Rule](nginx-port-80.png)
 
-
+---
 # azure cloud devops day 2
 -today i have praactised manging azure resources using cli instead of azure portal the goal was to understand to deploy
 ## topics i have covered
@@ -77,7 +77,8 @@ sudo systemctl start nginx
  with the help of ip address we can browse and it willl show nginx is installed
 
 
- ### Day 3
+ # Day 3
+ ---
 ## Docker Basics
 ---
 
