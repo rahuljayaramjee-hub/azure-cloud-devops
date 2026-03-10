@@ -113,11 +113,11 @@ Access in browser:
 http://localhost:8000
 ### Docker Container Stop
 
-![Docker Stop](docker-stop.png)
+![Docker Stop](docker-stop.png.png)
 
 ### Docker Volume Example
 
-![Docker Volume](docker-volume.png) 
+![Docker Volume](docker-volume.png.png) 
 
 :check_mark:
 
@@ -143,11 +143,11 @@ Concept learned:
 - Uploading project to GitHub
 ### Git Push to GitHub
 
-![Git Push](git-push.png)
+![Git Push](git-push.png.png)
 
 ### Git Repository Setup
 
-![Git Repo](git-repo.png)
+![Git Repo](git-repo.png.png)
 :check_mark:
 
 ---
