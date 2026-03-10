@@ -1,4 +1,4 @@
-# azure cloud devops day 1
+# :blue_book: azure cloud devops day 1
 ## project: deploy linux vm and host a website using azure
 - create resourse group
 - create ubuntu virtual machine
@@ -7,12 +7,13 @@
 - open port 80 in nsg
 - access the website using PUBLIC IP
 ---
-### commnad i run 
+### :computer: commnad i run 
 - ssh azureuser@PUBLIC_IP
 - sudo apt update
 - sudo apt install nginx -y
 - sudo systemctl status nginx
 - curl localhost
+  :check_mark:
 ## Screenshots
 ---
 ### Azure Virtual Machine Overview
@@ -21,10 +22,11 @@
 ### Network Security Rule (Port 80)
 ![NSG Rule](nginx-port-80.png)
 
+:check_mark:
 ---
-# azure cloud devops day 2
+# :blue_book: azure cloud devops day 2
 -today i have praactised manging azure resources using cli instead of azure portal the goal was to understand to deploy
-## topics i have covered
+## :cloud: topics i have covered
 
 - azure cli installation
 - azure cli login
@@ -34,7 +36,7 @@
 - installing nginx
 - installing docker
 
-  ### step 1 installing of azure cli
+  ### :computer: step 1 installing of azure cli
 
   #### i used command curl -sL https://aka.ms/InstallAzureCLIeb | sudo bash
 
@@ -76,13 +78,15 @@ sudo systemctl start nginx
 
  with the help of ip address we can browse and it willl show nginx is installed
 
+:check_mark:
 
- # Day 3
+---
+ # :blue_book: Day 3 docker basic level
  ---
 ## Docker Basics
 ---
 
-### Commands learned:
+### :computer: Commands learned:
 
 - docker run -d -p 8000:80 nginx
 - docker ps
@@ -93,7 +97,7 @@ sudo systemctl start nginx
 - docker container prune
 - learn docker volume and networking
 ---
-### Concept learned and did hands on practise :
+### :cloud: Concept learned and did hands on practise :
 - Docker container
 - Port mapping
 - Running Nginx in container
@@ -109,17 +113,19 @@ Access in browser:
 http://localhost:8000
 ### Docker Container Stop
 
-![Docker Stop](day3-screenshots/docker-stop.png)
+![Docker Stop](docker-stop.png)
 
 ### Docker Volume Example
 
-![Docker Volume](day3-screenshots/docker-volume.png)
+![Docker Volume](docker-volume.png) 
+
+:check_mark:
 
 ---
 
-# same day i learn git and github baics
+# :blue_book: same day i learn git and github baics
 ---
-## Commands learned:
+## :computer: Commands learned:
 
 git init
 git status
@@ -137,8 +143,44 @@ Concept learned:
 - Uploading project to GitHub
 ### Git Push to GitHub
 
-![Git Push](day3-screenshots/git-push.png)
+![Git Push](git-push.png)
 
 ### Git Repository Setup
 
-![Git Repo](day3-screenshots/git-repo.png)
+![Git Repo](git-repo.png)
+:check_mark:
+
+---
+
+# :blue_book: Day 4 – Dockerfile and Custom Image
+---
+## Objective
+
+Learn how to build a custom Docker image using a Dockerfile and run a container.
+
+---
+## Steps Performed
+
+1. Created a project directory
+2. Added a simple HTML webpage
+3. Wrote a Dockerfile using nginx base image
+4. Built a Docker image
+5. Ran a container using the image
+6. Accessed the application through the browser
+---
+## :computer: Commands Used
+
+docker build -t rahul-nginx .
+docker run -d -p 8080:80 rahul-nginx
+docker ps
+curl localhost:8080
+:check_mark:
+
+---
+
+![Curl Localhost Test](curl-localhost.png.png)
+
+## Result
+
+Successfully created a custom nginx container serving a personal HTML page.
+
