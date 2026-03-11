@@ -184,3 +184,8 @@ curl localhost:8080
 
 Successfully created a custom nginx container serving a personal HTML page.
 
+---
+# :blue_book: Day 5 – learing python to automation and scripting 
+
+
+
