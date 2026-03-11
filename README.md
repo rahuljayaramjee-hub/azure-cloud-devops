@@ -186,6 +186,6 @@ Successfully created a custom nginx container serving a personal HTML page.
 
 ---
 # :blue_book: Day 5 – learing python to automation and scripting 
-
+ instaled python today and learing in a strutural way 
 
 
