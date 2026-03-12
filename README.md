@@ -214,5 +214,14 @@ servers = ["web1", "web2", "db1"]
 
 for server in servers:
     print(f"Checking server {server}")
+```
+---
+💻 For Loop (for item in list)
+Used to repeat an action for each item in a list.
+
+servers = ["web1", "web2", "db1"]
+
+for server in servers:
+    print(f"Checking server {server}")
 ---
 ![Variables Example](variable.png)
