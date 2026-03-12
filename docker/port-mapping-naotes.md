@@ -1,0 +1,4 @@
+- -p 8080:80 means machine port 8080 → container port 80
+- Left side = your machine, Right side = container
+- Used docker run -d --name thor -p 8080:80 nginx
+- Accessed nginx on http://localhost:8080

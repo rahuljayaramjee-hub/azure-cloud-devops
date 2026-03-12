@@ -1,4 +1,4 @@
-# :blue_book: azure cloud devops day 1
+# :blue_book: azure cloud devops 
 ## project: deploy linux vm and host a website using azure
 - create resourse group
 - create ubuntu virtual machine
@@ -25,7 +25,7 @@
 :check_mark:
 
 ---
-# :blue_book: azure cloud devops day 2
+# :blue_book: azure cloud devops 
 -today i have praactised manging azure resources using cli instead of azure portal the goal was to understand to deploy
 ## :cloud: topics i have covered
 
@@ -58,7 +58,7 @@
 --size Standard_B2as_v2 \
 --admin-username azureuser \
 --generate-ssh-keys \
---location centralindia
+--location centralindia 
 
   ![VM Overview](azure-virtual-machine-overview.png)
 
@@ -83,9 +83,9 @@ sudo systemctl start nginx
 
 ---
 
- # :blue_book: Day 3 docker basic level
+ # 🖥️  docker basic level
  ---
-## Docker Basics
+## Docker Basics for practsing
 ---
 
 ### :computer: Commands learned:
@@ -154,7 +154,7 @@ Concept learned:
 
 ---
 
-# :blue_book: Day 4 – Dockerfile and Custom Image
+# :blue_book:  – Dockerfile and Custom Image
 ---
 ## Objective
 
@@ -187,12 +187,12 @@ curl localhost:8080
 Successfully created a custom nginx container serving a personal HTML page.
 
 ---
-# :blue_book: Day 5 – learing python to automation and scripting 
+# :blue_book:  – learing python to automation and scripting 
  instaled python3 in the ubuntu terminal in virtual environment python3 -m venv myenv
  ### python varaibles 
 
-### what i learnt in the python variable
-# Python Notes – Day 1
+## what i learnt in the python variable
+
 
 ## Variables
 
@@ -224,4 +224,212 @@ servers = ["web1", "web2", "db1"]
 for server in servers:
     print(f"Checking server {server}")
 ---
-![Variables Example](variable.png)
+![python Example](python-v.png)
+
+
+# :computer:  Python Practice (Dictionaries & Loops)
+
+Today I practiced Python dictionaries and loops, which are useful for handling server data in DevOps.
+
+## 1. Dictionary Example
+
+```python
+server = {"name": "web1", "ip": "10.0.0.1", "status": "running"}
+
+print(server["name"])
+print(server["ip"])
+```
+
+## 2. Loop Example
+
+```python
+servers = ["web1", "web2", "db1"]
+
+for s in servers:
+    print("Checking server:", s)
+```
+
+## 3. Dictionary + Loop Together
+
+```python
+servers = [
+    {"name": "web1", "ip": "10.0.0.1"},
+    {"name": "web2", "ip": "10.0.0.2"}
+]
+
+for server in servers:
+    print(server["name"], server["ip"])
+```
+
+# 💻 Python File Handling (for DevOps / Azure)
+
+## Why File Handling?
+
+In DevOps we often read files like:
+
+* server lists
+* deployment logs
+
+Python helps automate these tasks.
+
+## Example 1 – Writing to a File
+
+```python
+file = open("servers.txt", "w")
+
+file.write("web1\n")
+file.write("web2\n")
+file.write("db1\n")
+
+file.close()
+```
+
+Explanation:
+
+* `"w"` → write mode (creates file or overwrites)
+* `\n` → new line
+* This creates a file called **servers.txt**
+
+Output file:
+
+```
+web1
+web2
+db1
+```
+
+
+--------------------------------------------------
+
+## 3. Appending to a File
+Used to add new content without deleting existing data.
+
+Example:
+```
+file = open("example.txt", "a")
+file.write("\nNew line added")
+file.close()
+```
+
+Mode:
+"a" → append (adds content to the end)
+
+--------------------------------------------------
+Summary
+
+r → read file  
+w → write file (overwrite)  
+a → append to file
+
+
+---
+
+
+# 📘 Git = track code changes
+
+- git init → start repo
+- git clone → copy repo
+- git status → check changes
+- git add . → stage files
+- git commit -m "msg" → save
+- git push → upload
+- git pull → get latest
+
+## 💻 Practice
+
+mkdir demo
+cd demo
+git init
+
+echo "hello" > file.txt
+git add .
+git commit -m "first commit"
+### made an repo in my github and clering in the end of the day
+
+Connect GitHub repo and run:
+git push
+
+Flow: Code → Add → Commit → Push
+
+---
+
+# 💻 practising and breaking things down and fixing it
+# Mistakes I Faced
+
+- Forgot git add before commit
+- Wrong commit message
+- Tried running git without initializing repo
+  
+  ### its really important to use command before commit
+
+   ---
+  # 📑 practising again the python codes for perfectiion
+
+  # VARIABLES
+```
+env_name = "prod"
+cpu_readings = [55, 23, 87, 12, 67]
+
+print("Environment:", env_name)
+
+# SORTING
+cpu_readings.sort()
+
+print("Sorted CPU readings:", cpu_readings)
+
+```
+
+```
+# LOOP
+for value in cpu_readings:
+    if value > 70:
+        print("High:", value)
+    else:
+        print("OK:", value)
+```
+## 💻 out-put of the python code 
+
+```
+Environment: prod
+Sorted CPU readings: [12, 23, 55, 67, 87]
+OK: 12
+OK: 23
+OK: 55
+OK: 67
+High: 87
+
+```
+✔️
+
+
+# practsing docker for perfection 
+ # Docker Day 1
+
+Docker runs applications in containers with all dependencies.
+Images are blueprints, containers are running instances.
+Pulled nginx image and ran it using docker run.
+Used docker ps to check and docker stop to stop containers.
+Learned basic Docker workflow.
+
+
+nano docker-notes.md
+
+## waht is docker ? 
+ - docker is an islolated container where we can build or run apps
+ - docker is like a seprate room and isolated without your main computer
+
+
+   ### Basic Commands
+- `docker pull <image>` - Download an image from Docker Hub
+- `docker run -it ubuntu bash` - Run and enter a container
+- `docker ps -a` - List all containers
+- `docker rm $(docker ps -aq)` - Delete all containers
+- `docker rmi $(docker images -q)` - Delete all images
+
+
+  ### Building & Running Your Own App
+- `docker build -t my-flask-app .` - Build image from Dockerfile
+- `docker run -p 5000:5000 my-flask-app` - Run app on port 5000
+-  with the help of chatgpt i pasted python code for learing purpose
+-  what is a gpg keys its an software to verify wheather the application is legit or not
+
