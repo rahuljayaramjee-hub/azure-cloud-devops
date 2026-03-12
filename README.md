@@ -23,6 +23,7 @@
 ![NSG Rule](nginx-port-80.png)
 
 :check_mark:
+
 ---
 # :blue_book: azure cloud devops day 2
 -today i have praactised manging azure resources using cli instead of azure portal the goal was to understand to deploy
@@ -81,6 +82,7 @@ sudo systemctl start nginx
 :check_mark:
 
 ---
+
  # :blue_book: Day 3 docker basic level
  ---
 ## Docker Basics
@@ -186,6 +188,31 @@ Successfully created a custom nginx container serving a personal HTML page.
 
 ---
 # :blue_book: Day 5 – learing python to automation and scripting 
- instaled python today and learing in a strutural way 
+ instaled python3 in the ubuntu terminal in virtual environment python3 -m venv myenv
+ ### python varaibles 
 
+### what i learnt in the python variable
+# Python Notes – Day 1
 
+## Variables
+
+Variables store values.
+
+```python
+name = "Rahul"
+age = 40
+
+print(f"My name is {name} and my age is {age}")
+```
+
+## :computer: For Loop (for item in list)
+
+Used to repeat an action for each item in a list.
+
+```python
+servers = ["web1", "web2", "db1"]
+
+for server in servers:
+    print(f"Checking server {server}")
+
+![Variables Example](variable.png)
