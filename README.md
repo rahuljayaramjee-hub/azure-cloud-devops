@@ -191,8 +191,8 @@ Successfully created a custom nginx container serving a personal HTML page.
  instaled python3 in the ubuntu terminal in virtual environment python3 -m venv myenv
  ### python varaibles 
 
-### what i learnt in the python variable
-# Python Notes – Day 1
+## what i learnt in the python variable
+
 
 ## Variables
 
@@ -225,3 +225,38 @@ for server in servers:
     print(f"Checking server {server}")
 ---
 ![python Example](python-v.png)
+
+
+# :computer: day 6  Python Practice (Dictionaries & Loops)
+
+Today I practiced Python dictionaries and loops, which are useful for handling server data in DevOps.
+
+## 1. Dictionary Example
+
+```python
+server = {"name": "web1", "ip": "10.0.0.1", "status": "running"}
+
+print(server["name"])
+print(server["ip"])
+```
+
+## 2. Loop Example
+
+```python
+servers = ["web1", "web2", "db1"]
+
+for s in servers:
+    print("Checking server:", s)
+```
+
+## 3. Dictionary + Loop Together
+
+```python
+servers = [
+    {"name": "web1", "ip": "10.0.0.1"},
+    {"name": "web2", "ip": "10.0.0.2"}
+]
+
+for server in servers:
+    print(server["name"], server["ip"])
+```
