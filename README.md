@@ -268,7 +268,6 @@ for server in servers:
 In DevOps we often read files like:
 
 * server lists
-* configuration files
 * deployment logs
 
 Python helps automate these tasks.
