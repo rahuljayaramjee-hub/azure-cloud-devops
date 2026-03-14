@@ -260,3 +260,41 @@ servers = [
 for server in servers:
     print(server["name"], server["ip"])
 ```
+
+# 💻 Python File Handling (for DevOps / Azure)
+
+## Why File Handling?
+
+In DevOps we often read files like:
+
+* server lists
+* configuration files
+* deployment logs
+
+Python helps automate these tasks.
+
+## Example 1 – Writing to a File
+
+```python
+file = open("servers.txt", "w")
+
+file.write("web1\n")
+file.write("web2\n")
+file.write("db1\n")
+
+file.close()
+```
+
+Explanation:
+
+* `"w"` → write mode (creates file or overwrites)
+* `\n` → new line
+* This creates a file called **servers.txt**
+
+Output file:
+
+```
+web1
+web2
+db1
+```
