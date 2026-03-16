@@ -297,3 +297,22 @@ web1
 web2
 db1
 ```
+
+
+--------------------------------------------------
+
+## 3. Appending to a File
+Used to add new content without deleting existing data.
+
+Example:
+```
+file = open("example.txt", "a")
+file.write("\nNew line added")
+file.close()
+```
+
+Mode:
+"a" → append (adds content to the end)
+
+--------------------------------------------------
+
