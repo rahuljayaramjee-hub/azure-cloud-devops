@@ -315,4 +315,10 @@ Mode:
 "a" → append (adds content to the end)
 
 --------------------------------------------------
+Summary
+
+r → read file  
+w → write file (overwrite)  
+a → append to file
+
 
