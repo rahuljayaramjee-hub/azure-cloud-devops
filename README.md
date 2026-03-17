@@ -344,6 +344,7 @@ git init
 echo "hello" > file.txt
 git add .
 git commit -m "first commit"
+### made an repo in my github and clering in the end of the day
 
 Connect GitHub repo and run:
 git push
