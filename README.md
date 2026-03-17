@@ -322,3 +322,32 @@ w → write file (overwrite)
 a → append to file
 
 
+---
+
+
+# 📘 Git = track code changes
+
+- git init → start repo
+- git clone → copy repo
+- git status → check changes
+- git add . → stage files
+- git commit -m "msg" → save
+- git push → upload
+- git pull → get latest
+
+## 💻 Practice
+
+mkdir demo
+cd demo
+git init
+
+echo "hello" > file.txt
+git add .
+git commit -m "first commit"
+
+Connect GitHub repo and run:
+git push
+
+Flow: Code → Add → Commit → Push
+
+
