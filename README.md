@@ -351,9 +351,13 @@ git push
 
 Flow: Code → Add → Commit → Push
 
+---
+
 # 💻 practising and breaking things down and fixing it
 # Mistakes I Faced
 
 - Forgot git add before commit
 - Wrong commit message
 - Tried running git without initializing repo
+  
+  ### its really important to use command before commit 
