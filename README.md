@@ -360,4 +360,30 @@ Flow: Code → Add → Commit → Push
 - Wrong commit message
 - Tried running git without initializing repo
   
-  ### its really important to use command before commit 
+  ### its really important to use command before commit
+
+   ---
+  # practising again the python codes for perfectiion
+
+  # VARIABLES
+```
+env_name = "prod"
+cpu_readings = [55, 23, 87, 12, 67]
+
+print("Environment:", env_name)
+
+# SORTING
+cpu_readings.sort()
+
+print("Sorted CPU readings:", cpu_readings)
+
+```
+
+```
+# LOOP
+for value in cpu_readings:
+    if value > 70:
+        print("High:", value)
+    else:
+        print("OK:", value)
+```
