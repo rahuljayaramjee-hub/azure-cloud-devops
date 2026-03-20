@@ -363,7 +363,7 @@ Flow: Code → Add → Commit → Push
   ### its really important to use command before commit
 
    ---
-  # practising again the python codes for perfectiion
+  # 📑 practising again the python codes for perfectiion
 
   # VARIABLES
 ```
@@ -387,7 +387,7 @@ for value in cpu_readings:
     else:
         print("OK:", value)
 ```
-## out-put of the python code 
+## 💻 out-put of the python code 
 
 ```
 Environment: prod
@@ -399,3 +399,4 @@ OK: 67
 High: 87
 
 ```
+✔️
