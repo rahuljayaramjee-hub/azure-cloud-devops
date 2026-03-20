@@ -387,3 +387,15 @@ for value in cpu_readings:
     else:
         print("OK:", value)
 ```
+## out-put of the python code 
+
+```
+Environment: prod
+Sorted CPU readings: [12, 23, 55, 67, 87]
+OK: 12
+OK: 23
+OK: 55
+OK: 67
+High: 87
+
+```
