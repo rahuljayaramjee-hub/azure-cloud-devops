@@ -400,3 +400,14 @@ High: 87
 
 ```
 ✔️
+
+
+# practsing docker for perfection 
+ # Docker Day 1
+
+Docker runs applications in containers with all dependencies.
+Images are blueprints, containers are running instances.
+Pulled nginx image and ran it using docker run.
+Used docker ps to check and docker stop to stop containers.
+Learned basic Docker workflow.
+
