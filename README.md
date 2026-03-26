@@ -58,7 +58,7 @@
 --size Standard_B2as_v2 \
 --admin-username azureuser \
 --generate-ssh-keys \
---location centralindia
+--location centralindia 
 
   ![VM Overview](azure-virtual-machine-overview.png)
 
@@ -85,7 +85,7 @@ sudo systemctl start nginx
 
  # 🖥️ Day 3 docker basic level
  ---
-## Docker Basics
+## Docker Basics for practsing
 ---
 
 ### :computer: Commands learned:
