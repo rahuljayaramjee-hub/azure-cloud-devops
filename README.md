@@ -83,7 +83,7 @@ sudo systemctl start nginx
 
 ---
 
- # :blue_book: Day 3 docker basic level
+ # 🖥️ Day 3 docker basic level
  ---
 ## Docker Basics
 ---
