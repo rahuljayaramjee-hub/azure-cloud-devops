@@ -1,4 +1,4 @@
-# :blue_book: azure cloud devops day 1
+# :blue_book: azure cloud devops 
 ## project: deploy linux vm and host a website using azure
 - create resourse group
 - create ubuntu virtual machine
@@ -25,7 +25,7 @@
 :check_mark:
 
 ---
-# :blue_book: azure cloud devops day 2
+# :blue_book: azure cloud devops 
 -today i have praactised manging azure resources using cli instead of azure portal the goal was to understand to deploy
 ## :cloud: topics i have covered
 
@@ -83,7 +83,7 @@ sudo systemctl start nginx
 
 ---
 
- # 🖥️ Day 3 docker basic level
+ # 🖥️  docker basic level
  ---
 ## Docker Basics for practsing
 ---
@@ -154,7 +154,7 @@ Concept learned:
 
 ---
 
-# :blue_book: Day 4 – Dockerfile and Custom Image
+# :blue_book:  – Dockerfile and Custom Image
 ---
 ## Objective
 
@@ -187,7 +187,7 @@ curl localhost:8080
 Successfully created a custom nginx container serving a personal HTML page.
 
 ---
-# :blue_book: Day 5 – learing python to automation and scripting 
+# :blue_book:  – learing python to automation and scripting 
  instaled python3 in the ubuntu terminal in virtual environment python3 -m venv myenv
  ### python varaibles 
 
@@ -227,7 +227,7 @@ for server in servers:
 ![python Example](python-v.png)
 
 
-# :computer: day 6  Python Practice (Dictionaries & Loops)
+# :computer:  Python Practice (Dictionaries & Loops)
 
 Today I practiced Python dictionaries and loops, which are useful for handling server data in DevOps.
 
