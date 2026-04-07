@@ -44,3 +44,7 @@ kubectl delete service myapp
 - Exposed myapp deployment as NodePort
 - Used port-forward to access nginx
 - Got HTML response from nginx = app is live ✅
+
+## Checked in the browers its showing welcome to nginx
+
+---
