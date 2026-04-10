@@ -60,3 +60,13 @@ Docker runs one container, Kubernetes manages thousands
 - Service = reception desk routing visitors to workers
 - Minikube = practice airport on your laptop
 - kubectl = remote control for kubernetes
+
+## stsrted practising today for perfection 
+
+# Kubernetes Real Practice - NGINX App
+
+## Step 1: Start Cluster
+```bash
+minikube start
+kubectl get nodes
+```
