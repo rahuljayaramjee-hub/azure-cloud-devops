@@ -77,4 +77,11 @@ minikube start
 kubectl get nodes
 ```
 
+## scaling the application with replicas 
+```
+kubectl scale deployment nginx-app --replicas=3
+```
+
+
+
 
