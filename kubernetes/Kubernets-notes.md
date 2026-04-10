@@ -82,6 +82,13 @@ kubectl get nodes
 kubectl scale deployment nginx-app --replicas=3
 ```
 
+## exposing the application with port 80 
+```
+kubectl expose deployment nginx-app --type=NodePort --port=80
+```
+
+---
+
 
 
 
