@@ -64,9 +64,17 @@ Docker runs one container, Kubernetes manages thousands
 ## stsrted practising today for perfection 
 
 # Kubernetes Real Practice - NGINX App
+kubectl create deployment nginx-app --image=nginx
+
+Verify:
+
+kubectl get deployments
+kubectl get pods
 
 ## Step 1: Start Cluster
-```bash
+```
 minikube start
 kubectl get nodes
 ```
+
+
