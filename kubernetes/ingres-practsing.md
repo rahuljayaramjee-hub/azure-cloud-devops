@@ -1,14 +1,14 @@
 # This is practsing of ingrees with my name ( using my company name as rahul-cloud and rahul software
 
-## commnds i used 
-## crete deployment
+## commands i used 
+## create deployment
  
 ```
 - kubectl create deployment rahul-cloud --image=nginx
 - kubectl create deployment rahul-software --image=nginx
 
 ``` 
-## now i have exposed thses two deployment to the post mapping of port 80
+## now i have exposed thses two deployment to the port mapping of port 80
  
 ```
 - kubectl expose deployment rahul-cloud --port=80
@@ -16,7 +16,7 @@
 
 ```
 
-## Two check the services of kubectl deployment
+## To check the services of kubectl deployment
  ```
 - kubectl get services
 ```
