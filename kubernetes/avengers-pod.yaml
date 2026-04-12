@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: avengers-pod
+  labels:
+    app: avengers
+spec:
+  containers:
+  - name: avengers-container
+    image: nginx
+    ports:
+    - containerPort: 80
