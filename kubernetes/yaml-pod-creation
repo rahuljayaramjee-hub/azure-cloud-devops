@@ -1,0 +1,35 @@
+# pods with using yaml file 
+
+## creating the ironman-pod
+
+- firstly i have created an folder with the help of nano ironman-pod.yaml 
+ 
+```
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ironman-pod
+  labels:
+    app: ironman
+spec:
+  containers:
+  - name: ironman-container
+    image: nginx
+    ports:
+    - containerPort: 80
+```
+
+written the yaml file to create ironman-pod
+
+## commands i used 
+- kubectl apply -f ironman-pod.yaml
+- kubectl get pods
+- ironman-pod is running 
+
+## draws backs of creting a pod without scaling and deployment 
+- pod can we deleted easily with one single command 
+- kubectl delete pod ironman-pod
+- kubectl get pods
+- its shows that pod is deleted 
+- to counter that we use deployment to scale pod
+- when we use deployment then the pods wont get stoped ot killed 
