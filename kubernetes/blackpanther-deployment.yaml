@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: blackpanther-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: blackpanther
+  template:
+    metadata:
+      labels:
+        app: blackpanther
+    spec:
+      containers:
+      - name: blackpanther-container
+        image: nginx
+        ports:
+        - containerPort: 80
