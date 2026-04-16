@@ -33,7 +33,8 @@ resource "azurerm_resource_group" "rahul-rg" {
 4. AWS with Python
 5. AZ-104 certification
 
-## Real World Use
-- Company needs 100 servers
-- Without Terraform = 100 people clicking manually
-- With Terraform = one file, one command, 100 servers created!
+# Terraform Basics 
+
+## What I practiced
+- Installed Terraform
+- Ran basic commands
