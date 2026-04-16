@@ -44,3 +44,9 @@ resource "azurerm_resource_group" "rahul-rg" {
  - i have azure portal account but i dont have free creidits used eariler
  - so i will be practising basic terraform without azure
  - i will be getting azure sub by this week from my brother account
+
+## Commands used
+terraform version
+terraform init
+terraform plan
+terraform apply
