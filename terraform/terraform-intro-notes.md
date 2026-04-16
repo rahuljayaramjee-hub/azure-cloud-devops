@@ -38,3 +38,9 @@ resource "azurerm_resource_group" "rahul-rg" {
 ## What I practiced
 - Installed Terraform
 - Ran basic commands
+
+ ## i have installed vs code deb fiee and working on it the coding 
+ - i dont have have azure subscripion to deploy vm in azure or locate
+ - i have azure portal account but i dont have free creidits used eariler
+ - so i will be practising basic terraform without azure
+ - i will be getting azure sub by this week from my brother account
