@@ -23,4 +23,25 @@ aws s3 cp app/ s3://rahul-devops-demo-12345 --recursive
 ## additional notes
  - i have docuemnted all the aws notes but due to some techinacal 
 -issue the commits were not showing dated 26/04/2026 i have contacted github community 
--and resolved the issue and i have changed my email id and everthing is up to date 
+-and resolved the issue and i have changed my email id and everthing is up to date
+
+
+---
+## AWS S3 Quick Practice
+
+Today I revised basic S3 CLI commands.
+
+Commands used:
+- aws s3 ls
+- aws s3 mb s3://my-bucket
+- aws s3 cp file.txt s3://my-bucket
+- aws s3 cp s3://my-bucket/file.txt .
+- aws s3 cp folder/ s3://my-bucket --recursive
+
+Key points:
+- cp is used for upload/download
+- s3:// is the cloud path
+- --recursive uploads full directory
+
+Goal:
+Reinforce basics and improve speed with CLI.
