@@ -433,3 +433,7 @@ nano docker-notes.md
 -  with the help of chatgpt i pasted python code for learing purpose
 -  what is a gpg keys its an software to verify wheather the application is legit or not
 
+---
+
+ # this documenting is before knowing githib and when i know i started making file and folders 
+
