@@ -1,7 +1,7 @@
 # :blue_book: azure cloud devops 
 ## project: deploy linux vm and host a website using azure
-- create resourse group
-- create ubuntu virtual machine
+- created resourse group
+- created ubuntu virtual machine
 - connect using ssh
 - install nginx
 - open port 80 in nsg
